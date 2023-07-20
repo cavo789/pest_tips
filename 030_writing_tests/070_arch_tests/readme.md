@@ -1,5 +1,7 @@
 # Architectural tests
 
+> [https://pestphp.com/docs/arch-testing](https://pestphp.com/docs/arch-testing)
+
 Using PestPHP v2, we can ensure some architectural consistencies like not using validations in a controller (using `$request->validate(...)`) but forcing to use the Form request control classes.
 
 The architectural plugin will not help to fire unit tests but will scan the project and will ensure some rules are followed.
@@ -33,3 +35,17 @@ test('facades')
 ```
 
 This part can be seen on video [https://youtu.be/9EGPo_enEc8?t=1021](https://youtu.be/9EGPo_enEc8?t=1021)
+
+Since Pest v2.9, we can also check if a class is final:
+
+```php
+test('controllers')
+    ->expect('App\Http\Controllers')
+    ->toUseStrictTypes()
+    ->toHaveSuffix('Controller') // or toHavePreffix, ...
+    ->toBeReadonly()
+    ->toBeClasses() // or toBeInterfaces, toBeTraits, ...
+    ->classes->toBeFinal() // 🌶
+    ->classes->toExtendNothing() // or toExtend(Controller::class),
+    ->classes->toImplementNothing() // or toImplement(ShouldQueue::class),
+```
