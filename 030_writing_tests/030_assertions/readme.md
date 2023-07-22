@@ -1,6 +1,6 @@
 # Assertions
 
-> [https://pestphp.com/docs/assertions](https://pestphp.com/docs/assertions)
+> [🇬🇧 https://pestphp.com/docs/assertions](https://pestphp.com/docs/assertions)
 
 Assertions comes from PhpUnit and works the same way.
 

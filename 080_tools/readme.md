@@ -2,7 +2,7 @@
 
 ## Laravel plugin
 
-> [Laravel Pest plugin](https://pestphp.com/docs/plugins/laravel)
+> [🇬🇧 Laravel Pest plugin](https://pestphp.com/docs/plugins/laravel)
 
 Install the plugin like this: `composer require pestphp/pest-plugin-laravel --dev`
 
@@ -18,9 +18,9 @@ php artisan | grep pest
 
 ## Visual Studio Code Addon
 
-* If not yet installad, [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client) will allow you to press <kbd>F12</kbd> on a method name (like `toBeTrue`) and jump where the method is implemented,
-* [Better Pest](https://marketplace.visualstudio.com/items?itemName=m1guelpf.better-pest) and
-* [Pest Snippets](https://marketplace.visualstudio.com/items?itemName=dansysanalyst.pest-snippets)
+* If not yet installad, [🇬🇧 PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client) will allow you to press <kbd>F12</kbd> on a method name (like `toBeTrue`) and jump where the method is implemented,
+* [🇬🇧 Better Pest](https://marketplace.visualstudio.com/items?itemName=m1guelpf.better-pest) and
+* [🇬🇧 Pest Snippets](https://marketplace.visualstudio.com/items?itemName=dansysanalyst.pest-snippets)
 
 ### Better Pest with Docker
 
@@ -45,4 +45,4 @@ Now, just open any PestPhp file and press <kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>
 
 ## Convert from PHPUnit to PestPHP
 
-The repository [https://github.com/mandisma/pest-converter](https://github.com/mandisma/pest-converter) propose a **PHPUnit to Pest Converter**: PestConverter is a PHP library for converting PHPUnit tests to Pest tests.
+The repository [🇬🇧 https://github.com/mandisma/pest-converter](https://github.com/mandisma/pest-converter) propose a **PHPUnit to Pest Converter**: PestConverter is a PHP library for converting PHPUnit tests to Pest tests.

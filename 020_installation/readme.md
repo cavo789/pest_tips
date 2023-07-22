@@ -1,6 +1,6 @@
 # Installation
 
-> [https://pestphp.com/docs/installation#installation](https://pestphp.com/docs/installation#installation)
+> [🇬🇧 https://pestphp.com/docs/installation#installation](https://pestphp.com/docs/installation#installation)
 
 ```bash
 composer require pestphp/pest --dev --with-all-dependencies

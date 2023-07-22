@@ -1,6 +1,8 @@
 # Architectural tests
 
-> [https://pestphp.com/docs/arch-testing](https://pestphp.com/docs/arch-testing)
+> [🇬🇧 https://pestphp.com/docs/arch-testing](https://pestphp.com/docs/arch-testing)
+
+> [🇫🇷 Tests d'architecture avec Pest 2.9](https://youtu.be/8o1OKFbG854)
 
 Using PestPHP v2, we can ensure some architectural consistencies like not using validations in a controller (using `$request->validate(...)`) but forcing to use the Form request control classes.
 

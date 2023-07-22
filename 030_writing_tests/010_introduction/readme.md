@@ -18,6 +18,6 @@ In a Pest test, `$this` refers to the PHPUnit `Tests\TestCase` class.
 
 PestPHP give us the choice between `it()` and `test()`. *Use the one that best fits your test naming convention, or both. They share the same behavior & syntax.*
 
-Read more: [https://pestphp.com/docs/writing-tests#api-reference](https://pestphp.com/docs/writing-tests#api-reference)
+Read more: [🇬🇧 https://pestphp.com/docs/writing-tests#api-reference](https://pestphp.com/docs/writing-tests#api-reference)
 
 The result is the same, just how the output is done on the console.

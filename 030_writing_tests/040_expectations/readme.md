@@ -1,6 +1,6 @@
 # Expectations
 
-> [https://pestphp.com/docs/expectations](https://pestphp.com/docs/expectations)
+> [🇬🇧 https://pestphp.com/docs/expectations](https://pestphp.com/docs/expectations)
 
 *In addition to assertions, Pest offers you a set of expectations. These functions let you test your values against certain conditions. This API is inspired by Jest. Expectations also allow you to write your tests like you would a natural sentence*
 
